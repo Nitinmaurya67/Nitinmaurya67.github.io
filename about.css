@@ -1,0 +1,11 @@
+body{
+    font-family: "Arsenal SC", sans-serif;
+    
+    background: linear-gradient( #ce580a4f 100%, #db640362 50%);
+    padding-top: 10px;
+    
+}
+
+.content{
+    margin:10px;
+}
