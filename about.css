@@ -7,5 +7,9 @@ body{
 }
 
 .content{
-    margin:10px;
+    margin-left:100px;
+    margin-right: 500px;
+}
+h4{
+    padding: 10px;
 }
