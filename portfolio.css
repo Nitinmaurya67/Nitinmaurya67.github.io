@@ -170,7 +170,7 @@ section {
 
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     html {
         font-size: 100%;
     }
@@ -209,12 +209,13 @@ section {
         width: 20em;
         height: 20em;
         margin: auto;
+        left:20px;
 
     }
 
     .white-bg {
-        width: 16.875em;
-        height: 16.875em;
+        width: 10.875em;
+        height: 10.875em;
     }
 
     .blue-bg {
@@ -251,4 +252,4 @@ section {
         width: 100%;
     }
 }
-
+ */
