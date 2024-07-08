@@ -5,6 +5,9 @@ body{
     padding-top: 10px;
         
 }
+.center{
+    padding: 5px;
+}
 
 body::-webkit-scrollbar {
   display: none;
