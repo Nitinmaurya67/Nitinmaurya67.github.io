@@ -24,7 +24,6 @@ body::before {
     justify-content: center;
     align-items: center;
     color:#d16500;
-
     /* border-radius: 50% 50% 24% 24% / 46% 46% 0% 0%; */
 }
 .container p{
