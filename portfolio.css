@@ -1,9 +1,7 @@
 body{
   font-family: 'Poppins', sans-serif;
-    background: linear-gradient( #ce580a4f 50%, #db640362 50%);
+    background: linear-gradient( #ffd8bd  50%, #ffbe92 50%);
     padding-top: 10px;
-    font-family: Arsenal SC;
-    
       
 }
 
@@ -50,6 +48,7 @@ section {
     flex-direction: column;
     align-items: end;
     margin: auto;
+    padding-top: 100px;
 }
 
 .social {
@@ -73,10 +72,10 @@ section {
 
      
 
-      background:#333333;
-      color:#ffffff;
+      background:#351d1300;
+      color:#752b00;
       font-family: cursive;
-      box-shadow: inset -4px -5px 5px 0px  #1527304b, inset -4px -5px 5px 0px #164a4734 ,inset 4px 5px 5px 0px  #ffffff57;
+      box-shadow: inset 1px 1px 0px 1px  #681f00;
       height: 35px;
       border-radius:20px;
       border: 0;
@@ -87,9 +86,10 @@ section {
 }
 
 .social a:hover {
-    color: #ffae00;
-    background-color: #333333;
-    box-shadow: 0 0 20px var(--secondary-color);
+    color: #ff3636;
+    background-color: #692f0000;
+    box-shadow:1px -1px 1px 1px   #8b2a00 ;
+    
     border-color: var(--secondary-color);
     transition: all .3s ease-in-out;
 
@@ -104,9 +104,9 @@ section {
     margin: auto;
 } */
 
-.blue-bg-outer {
-    width: 23.5em;
-    height: 23.5em;
+/* .blue-bg-outer {
+    width: 24.5em;
+    height: 24.5em;
     border-radius: 50%;
     background: linear-gradient(0deg,  #423f3f 57%, #333333 43%);
     display: grid;
@@ -114,16 +114,16 @@ section {
     margin-top: 40px;
    
 
-}
+} */
 
 .white-bg {
     width: 22.875em;
     height: 22.875em;
     border-radius: 50%;
-    background: #ffd5ae;
+    background: #ecf3ff59;
     display: grid;
     place-items: center;
-    box-shadow: inset -20px 11px 26px 15px rgb(255, 197, 170);
+    /* box-shadow: inset -20px 11px 26px 15px rgb(255, 214, 194); */
 }
 
 .blue-bg {
@@ -140,6 +140,7 @@ section {
     /* bottom: 30px;
     right: 20px; */
     width: 100%;
+    border-style: solid;border-width: 0px 0px 8px 4px;border-color: #361a00;
     border-radius: 50%;
 }
 
@@ -245,3 +246,4 @@ section {
         width: 100%;
     }
 }
+
