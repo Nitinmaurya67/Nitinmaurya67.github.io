@@ -56,11 +56,17 @@ display: none;
 
   .project-container a{
     text-decoration: none;
-    background-color: #ff73227e;
+    background-color: #ff732244;
     color: rgb(121, 64, 0);
+    width:100px;
+    
  }
    .project-container a:hover{
     text-decoration: none;
-    background-color: #ffc04be5;
+    background-color: #ff934be5;
     color: rgb(37, 21, 2);
  }
+ .gap{
+    display: flex;
+    justify-content: space-evenly;
+}
