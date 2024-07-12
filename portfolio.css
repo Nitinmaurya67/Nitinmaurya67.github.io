@@ -214,10 +214,6 @@ section {
         height: 20em;
         margin: auto;
         left:80px;
-        align:center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
 
     }
 
@@ -245,10 +241,7 @@ section {
         position: relative;
         width: 16em;
         height: 16em;
-        align:center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
           }
 
     .white-bg {
