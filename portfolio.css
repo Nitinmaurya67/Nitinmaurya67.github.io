@@ -217,15 +217,7 @@ section {
     height: 24px;
   }
 
-    #background-video {
-    width: 210vh;
-    height: 120vw;
-    object-fit: contain;
-    left: -360px;
-    right: auto;
-    rotate: 90deg;
-    top: 110px;
-  }
+
 }
 
 @media only screen and (max-width: 320px) {
