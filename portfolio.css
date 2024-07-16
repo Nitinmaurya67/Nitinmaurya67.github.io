@@ -220,7 +220,7 @@ section {
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
   .images {
     /* height: 17em; */
     width: 10em;
