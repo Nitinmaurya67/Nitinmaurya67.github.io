@@ -190,7 +190,7 @@ section {
     width: 15em;
     height: 15em;
     margin: auto;
-    left: 10%;
+    left:10vh;
   }
 
   .white-bg {
@@ -215,6 +215,16 @@ section {
     box-shadow: inset 0.5px 0.5px 0px 0.5px #681f00;
     width: 60px;
     height: 24px;
+  }
+
+    #background-video {
+    width: 210vh;
+    height: 120vw;
+    object-fit: contain;
+    left: -360px;
+    right: auto;
+    rotate: 90deg;
+    top: 110px;
   }
 }
 
