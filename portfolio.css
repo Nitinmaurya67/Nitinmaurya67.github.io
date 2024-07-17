@@ -261,6 +261,8 @@ section {
     padding-top: 80px;
   }
   .social a {
+    display: grid;
+    place-items: center;
     font-size: 1rem;
     padding: 0.2rem;
     box-shadow: inset 0.5px 0.5px 0px 0.5px #681f00;
