@@ -1,7 +1,5 @@
 body{
     font-family: "Arsenal SC", sans-serif;
-    
-    background: linear-gradient( #ffd8bd  100%, #7736003f 50%);
     padding-top: 10px;
         
 }
@@ -15,14 +13,13 @@ body::-webkit-scrollbar {
 h4{
     padding: 10px;
     max-height:47px;
-    background-color: rgb(255, 162, 109);
-    display: flex;
-    justify-items: center;
-    justify-content: center;
+    /* background-color: rgba(107, 107, 107, 0.34); */
+
+
     
 }
 h4 b{
-    color: #331902;
+    color: #8c4600;
 } 
 
 .images{
