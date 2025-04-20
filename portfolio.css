@@ -57,40 +57,29 @@ section {
   font-size: 2rem;
   padding: 0.3rem;
   text-align: center;
-  width: 100px;
+  width: 25px;
   height: 35px;
 
   background: #351d1300;
-  color: #752b00;
+  color: #4e1d00;
   font-family: cursive;
-  box-shadow: inset 1px 1px 0px 1px #681f00;
-  border-radius: 20px;
-  border: 0;
+
+
   outline: 0;
   cursor: pointer;
 }
 
 .social a:hover {
-  color: #ff3636;
-  background-color: #692f0000;
-  box-shadow: 1px -1px 1px 1px #8b2a00;
+  color: #202020;
 
-  border-color: var(--secondary-color);
-  transition: all 0.3s ease-in-out;
 }
 
 /* IMAGE*/
-/* 
-.images {
-    width: 25em;
-    height: 25em;
-    border-radius: 50%;
-    margin: auto;
-} */
 
-/* .blue-bg-outer {
-    width: 24.5em;
-    height: 24.5em;
+
+.blue-bg-outer {
+    width: 24em;
+    height: 24em;
     border-radius: 50%;
     background: linear-gradient(0deg,  #423f3f 57%, #333333 43%);
     display: grid;
@@ -98,7 +87,7 @@ section {
     margin-top: 40px;
    
 
-} */
+}
 
 .white-bg {
   width: 22.875em;
@@ -107,7 +96,7 @@ section {
   display: grid;
   place-items: center;
 
-  background: rgba(255, 165, 124, 0.215);
+  background: rgba(62, 67, 79, 0.215);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(21x);
   -webkit-backdrop-filter: blur(2px);
@@ -129,21 +118,10 @@ section {
   width: 100%;
   border-style: solid;
   border-width: 0px 0px 8px 4px;
-  border-color: #361a00;
+  border-color: #2b2f3a;
   border-radius: 50%;
 }
 
-#background-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
 
 @media only screen and (max-width: 1024px) {
   html {
@@ -187,10 +165,10 @@ section {
 
   .blue-bg-outer {
     position: relative;
-    width: 15em;
-    height: 15em;
+    width: 13.4em;
+    height: 13.4em;
     margin: auto;
-    left:10vh;
+    left:1vh;
   }
 
   .white-bg {
@@ -209,14 +187,6 @@ section {
   .Information {
     padding-top: 10px;
   }
-  .social a {
-    font-size: 1.5rem;
-    padding: 0rem;
-    box-shadow: inset 0.5px 0.5px 0px 0.5px #681f00;
-    width: 60px;
-    height: 24px;
-  }
-
 
 }
 
@@ -260,22 +230,6 @@ section {
   .Information {
     padding-top: 80px;
   }
-  .social a {
-    display: grid;
-    place-items: center;
-    font-size: 1rem;
-    padding: 0.2rem;
-    box-shadow: inset 0.5px 0.5px 0px 0.5px #681f00;
-    width: 50px;
-    height: 19px;
-  }
-  #background-video {
-    width: 210vh;
-    height: 120vw;
-    object-fit: contain;
-    left: -410px;
-    right: auto;
-    rotate: 90deg;
-    top: 110px;
-  }
+
+
 }
